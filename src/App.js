@@ -1,4 +1,6 @@
 import Menu from './Paginas/Menu';
+import SubMenu from './Paginas/submenu';
+import Cliente from './Paginas/Jsx/Cliente'
 import './App.css';
 
 function App() {
@@ -10,7 +12,12 @@ function App() {
         </p>
       </header>
       <main>
-        <p>@hftamayo</p>
+        <div>
+        <SubMenu />
+        <Cliente />
+        </div>
+        
+        <p>@rebecaJKT</p>
       </main>
     </div>
   );

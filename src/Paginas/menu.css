@@ -1,0 +1,42 @@
+ul li{
+    display: inline;
+    position: relative;
+    padding: 20px;
+}
+.menuUl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menuLi{
+    width: 210px;
+    height: 40px;
+}
+
+.subMenu{
+    width: 100px;
+    height: 30px;
+}
+
+.est1{
+    color: #00ff00;
+    text-decoration: underline;
+}
+
+.est2{
+    display: inline;
+    color: #FFFFFF;
+    background-color: #900C3F ;
+}
+
+.est3{
+    
+    color:   #ffc903;
+}
+
+.est4{
+    text-align: center;
+    border-bottom: solid #74e8fc 4px;
+    display:inline;
+}
