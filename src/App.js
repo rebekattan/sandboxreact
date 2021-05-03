@@ -13,9 +13,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+      
           <Menu />
-        </p>
+        
       </header>
       <main>
         <div>
@@ -23,31 +23,9 @@ function App() {
         <Cliente />
         </div>
         
-        <p>@rebekattan</p>
+        <p><br /><br /><br /><br /> @rebekattan</p>
       </main>
-      <div>
-
-        <h2>Ejemplos de props.children</h2>
-        <PruebaChildren>
-        </PruebaChildren>
-
-        <PruebaChildren2 nombre='Rebeca' edad='23'>
-        <p>Soy una parrafo mostrado a través de props.children</p>
-        <img src="https://cdn.iconscout.com/icon/free/png-256/search-2130850-1794981.png"
-        width="50px" height="50px"></img>
-        </PruebaChildren2>
-        <br/>
-        
-        <h2>Ejemplos de state</h2>
-        <Estado />
-        <Estado4 />
-        <br/>
-
-        <h2>Ejemplos de props y state</h2>
-        <Estado1 />
-        <Estado2 />
-
-      </div>
+      
     </div>
   );
 }
