@@ -19,6 +19,12 @@ ul li{
     height: 30px;
 }
 
+.dist{
+    display: inline;
+    position: relative;
+    padding: 20px;
+}
+
 .est1{
     color: #00ff00;
     text-decoration: underline;
@@ -40,3 +46,10 @@ ul li{
     border-bottom: solid #74e8fc 4px;
     display:inline;
 }
+
+.size {
+    padding: 16px;
+    width:50rem;
+    text-align: center;
+    align-content: center;
+  }
